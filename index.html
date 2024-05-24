@@ -21,11 +21,11 @@
     <html>
         <head>
         </head>
-        <body style="color: blue;">
-            <h1>Super stránka, super iframe</h1>
+        <body text="blue">
+            <h1><mark>Super stránka, super iframe</mark></h1>
             <p>Zajímá vás, jak automaticky obnovovat iframe? Jste na správném místě!</p>
             <h2>Pythagorova věta</h2>
-            <p style="background-color: yellow;">a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
+            <p>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
         </body>
         </html>
     ' frameborder='0'></iframe>
@@ -35,13 +35,65 @@
         <html>
 
             <head>
-
+                <style>
+                    table, th, td {
+                        border: 1px solid black;
+                        border-collapse: collapse;
+                    }
+                </style>
             </head>
             <body>
-                <table></table>
+                <table>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 3, Cell 1</td>
+                        <td>Row 3, Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 4, Cell 1</td>
+                        <td>Row 4, Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 5, Cell 1</td>
+                        <td>Row 5, Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 6, Cell 1</td>
+                        <td>Row 6, Cell 2</td>
+                    </tr>
+                </table>
             </body>
         </html>
 
     " frameborder="3"></iframe>
+
+    <iframe width="40%" height="432" srcdoc='
+    
+        <html>
+
+            <head>
+                <style>
+                    img {
+                        width: 40%;
+                    }
+                </style>
+            </head>
+            <body>
+                <a href="Kočka1.jpg" target="_blank"><img src="Kočka1.jpg" alt=""></a>
+                <a href="Kočka2.jpg" target="_blank"><img src="Kočka2.jpg" alt=""></a>
+                <a href="Kočka3.jpg" target="_blank"><img src="Kočka3.jpg" alt=""></a>
+                <a href="Kočka4.jpg" target="_blank"><img src="Kočka4.jpg" alt=""></a>
+                <a href="Kočka5.jpg" target="_blank"><img src="Kočka5.jpg" alt=""></a>
+
+            </body>
+        </html>
+        '</iframe>
 </body>
 </html>
