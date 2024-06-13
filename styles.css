@@ -3,27 +3,37 @@ body{
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+    font-family: Roboto;
 }
 
 header{
-    display: flex;
-    height: 80px;
+    height: 10vh;
     width: 100%;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
     background-color: gray;
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-button{
-    background-color: rgb(68, 68, 68);
-    border-radius: 10%;
-    width: 100px;
-    height: 70px;
+.header{
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
 
+.header:visited{
+    color: white;
+}
+
+.content{
+    margin: 5%;
 }
 
 h1{
-    margin: 5%;
+    display: flex;
+    align-self: center;
+    font-size: 40px;
 }
