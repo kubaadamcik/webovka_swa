@@ -9,8 +9,9 @@ header{
     display: flex;
     height: 80px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
+    align-items: center;
     background-color: gray;
     left: 0;
 }
@@ -19,7 +20,8 @@ button{
     background-color: rgb(68, 68, 68);
     border-radius: 10%;
     width: 100px;
-    height: ;
+    height: 70px;
+
 }
 
 h1{
